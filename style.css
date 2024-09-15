@@ -1,0 +1,243 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Reseta margens e preenchimentos e define o box-sizing para border-box em todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  overflow-x: hidden;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  /* Fonte importada */
+  background-color: lightskyblue;
+  /* Cor de fundo */
+  line-height: 1.6;
+  /* Altura da linha para melhor leitura */
+}
+
+/* Estilo do cabeçalho fixo */
+header {
+  background-color: lightskyblue;
+  /* Cor de fundo do cabeçalho */
+  position: fixed;
+  /* Fixa o cabeçalho no topo da página */
+  width: 100%;
+  /* Largura total da tela */
+  top: 0;
+  /* Posiciona no topo */
+  left: 0;
+  /* Alinha à esquerda */
+  z-index: 1000;
+  /* Garante que o cabeçalho fique acima de outros elementos */
+  transition: top 0.3s;
+  /* Transição suave para o esconder/mostrar */
+}
+
+/* Estilo da banner */
+.banner {
+  width: 100%;
+  margin-left: 15px;
+  height: auto;
+  background-size: cover;
+  /* Ajusta a imagem de fundo para cobrir o elemento */
+  background-position: center;
+  /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat;
+  /* Impede a repetição da imagem de fundo */
+}
+
+/* Estilo da navegação */
+nav ul {
+  list-style: none;
+  /* Remove marcadores da lista */
+  display: flex;
+  /* Exibe os itens de forma horizontal */
+  justify-content: center;
+  /* Centraliza os itens horizontalmente */
+  background-color: lightskyblue;
+  /* Cor de fundo da navegação */
+  padding: 8px;
+  /* Preenchimento ao redor dos itens */
+}
+
+/* Estilo dos itens de navegação */
+nav li {
+  position: relative;
+}
+
+/* Estilo dos links da navegação */
+nav li a {
+  color: #323232;
+  /* Cor do texto */
+  padding: 11px 20px;
+  /* Espaçamento interno */
+  text-decoration: none;
+  /* Remove sublinhado */
+  font-size: 19px;
+  /* Tamanho da fonte */
+}
+
+/* Adiciona um separador entre itens de navegação */
+nav li:not(:last-child):not(:nth-last-child(2))::after {
+  content: '';
+  /* Adiciona conteúdo vazio para criar o separador */
+  position: absolute;
+  top: 15%;
+  right: -1px;
+  height: 19px;
+  width: 1px;
+  background-color: #222831;
+  /* Cor do separador */
+}
+
+/* Estilo para links e botões ao passar o mouse */
+nav li a:hover,
+button:hover {
+  background-color: #F7D87C;
+  /* Cor de fundo ao passar o mouse */
+  transition: background-color 0.4s ease;
+  /* Transição suave da cor de fundo */
+}
+
+/* Estilo dos botões de envio */
+button[type="submit"] {
+  padding: 4px;
+  background-color: #FFCE33;
+  /* Cor de fundo do botão */
+  color: #222831;
+  /* Cor do texto do botão */
+  border: none;
+  /* Remove a borda padrão */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  cursor: pointer;
+  /* Mostra o cursor de ponteiro ao passar o mouse */
+  font-size: 15px;
+  /* Tamanho da fonte */
+  transition: background-color 0.4s ease, transform 0.4s ease;
+  /* Transição suave para cor e escala */
+}
+
+/* Efeito de hover para botões */
+button:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  /* Sombra ao passar o mouse */
+  transform: scale(1.05);
+  /* Leve aumento ao passar o mouse */
+}
+
+/* Estilo dos campos de entrada de texto */
+input[type="text"] {
+  padding: 2px;
+  border: 4px solid #FFCE33;
+  /* Borda do campo de entrada */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  width: 200px;
+  /* Largura do campo de entrada */
+  font-size: 15px;
+  /* Tamanho da fonte */
+  transition: border-color 0.4s ease;
+  /* Transição suave para a cor da borda */
+}
+
+/* Efeito de hover para campos de entrada */
+input[type="text"]:hover {
+  border-color: #fee778;
+  /* Cor da borda ao passar o mouse */
+}
+
+/* Estilo para palavras destacadas */
+mark {
+  background-color: #ffeb3b;
+  /* Cor de fundo do destaque */
+  color: #000;
+  /* Cor do texto do destaque */
+  padding: 0.2em;
+  /* Preenchimento ao redor do texto */
+  border-radius: 0.3em;
+  /* Bordas arredondadas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Sombra ao redor do destaque */
+}
+
+/* Estilo das seções */
+section {
+  padding: 20px 40px;
+  /* Espaçamento interno */
+  border-radius: 0.5em;
+  background-color: #f6faff;
+  /* Cor de fundo */
+  margin: 15px;
+  /* Margem ao redor da seção */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Sombra ao redor da seção */
+}
+
+/* Estilo dos cabeçalhos dentro das seções */
+section h1,
+section h2 {
+  color: #333;
+  /* Cor do texto */
+}
+
+/* Estilo dos parágrafos dentro das seções */
+section p {
+  margin-top: 15px;
+  /* Margem acima do parágrafo */
+  font-size: 1rem;
+  /* Tamanho da fonte */
+  color: #555;
+  /* Cor do texto */
+  margin-bottom: 10px;
+  /*Margem após parágrafo*/
+}
+
+/* Classe para esconder elementos */
+.hidden {
+  top: -100px;
+  /* Move o elemento para fora da tela */
+}
+
+/*Estilo do rodapé*/
+footer {
+  background-color: #00274C;
+  padding: 8px;
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 19px;
+  font-family: "Chakra Petch"; 
+}
+
+footer p {
+  text-align: center;
+  color:#fff
+}
+  
+.row {
+display: flex;
+justify-content: space-between; /* Distribui os itens horizontalmente */
+}
+
+.social-icons a img {
+  margin-top: -2px;
+  width: 85px;
+  height: 85px;
+  text-align: left;
+  margin-left: 4px;
+}
+
+.arrow-icons a img {
+  margin-top: 2px;
+  width: 80px;
+  height: 85px;
+  text-align: right;
+  margin-right: 6px;
+}
+
