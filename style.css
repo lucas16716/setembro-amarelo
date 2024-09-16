@@ -1,6 +1,10 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Reseta margens e preenchimentos e define o box-sizing para border-box em todos os elementos */
 * {
   margin: 0;
@@ -60,7 +64,7 @@ nav ul {
   /* Centraliza os itens horizontalmente */
   background-color: lightskyblue;
   /* Cor de fundo da navegação */
-  padding: 8px;
+  padding: 5px;
   /* Preenchimento ao redor dos itens */
 }
 
@@ -71,14 +75,16 @@ nav li {
 
 /* Estilo dos links da navegação */
 nav li a {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #323232;
   /* Cor do texto */
   padding: 11px 20px;
   /* Espaçamento interno */
   text-decoration: none;
   /* Remove sublinhado */
-  font-size: 19px;
+  font-size: 17px;
   /* Tamanho da fonte */
+  margin-left: -5px;
 }
 
 /* Adiciona um separador entre itens de navegação */
@@ -88,7 +94,7 @@ nav li:not(:last-child):not(:nth-last-child(2))::after {
   position: absolute;
   top: 15%;
   right: -1px;
-  height: 19px;
+  height: 20px;
   width: 1px;
   background-color: #222831;
   /* Cor do separador */
@@ -101,6 +107,7 @@ button:hover {
   /* Cor de fundo ao passar o mouse */
   transition: background-color 0.4s ease;
   /* Transição suave da cor de fundo */
+  margin-left: 1px;
 }
 
 /* Estilo dos botões de envio */
@@ -169,7 +176,7 @@ mark {
 section {
   padding: 20px 40px;
   /* Espaçamento interno */
-  border-radius: 0.5em;
+  border-radius: 0.9em;
   background-color: #f6faff;
   /* Cor de fundo */
   margin: 15px;
@@ -181,8 +188,10 @@ section {
 /* Estilo dos cabeçalhos dentro das seções */
 section h1,
 section h2 {
-  color: #333;
+  color: #131313;
   /* Cor do texto */
+  filter: drop-shadow(2px -2px 2px lightskyblue);
+  /*Sombra no texto*/
 }
 
 /* Estilo dos parágrafos dentro das seções */
@@ -213,6 +222,8 @@ footer {
 .copyright {
   margin-top: 19px;
   font-family: "Chakra Petch"; 
+  filter: drop-shadow(5px 5px 5px #111);
+  user-select: none;
 }
 
 footer p {
@@ -226,6 +237,7 @@ justify-content: space-between; /* Distribui os itens horizontalmente */
 }
 
 .social-icons a img {
+  filter: drop-shadow(8px 8px 8px #111);
   margin-top: -2px;
   width: 85px;
   height: 85px;
@@ -234,6 +246,7 @@ justify-content: space-between; /* Distribui os itens horizontalmente */
 }
 
 .arrow-icons a img {
+  filter: drop-shadow(8px 8px 8px #111);
   margin-top: 2px;
   width: 80px;
   height: 85px;
