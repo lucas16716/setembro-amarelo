@@ -93,6 +93,6 @@ function showMessage(message) {
 }
 
 // Função de botão footer para rolar a página para o início
-function scrollToTop() {
+document.querySelector('.scroll-top-btn').addEventListener('click', function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
-  }
+});
