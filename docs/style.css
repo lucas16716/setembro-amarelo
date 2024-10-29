@@ -1,5 +1,5 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -15,7 +15,7 @@ html {
 /* Estilo do corpo da página */
 body {
   overflow-x: hidden;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* Fonte importada */
   background-color: lightskyblue;
   /* Cor de fundo */
@@ -75,7 +75,7 @@ nav li {
 
 /* Estilo dos links da navegação */
 nav li a {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #323232;
   /* Cor do texto */
   padding: 11px 20px;
@@ -89,7 +89,7 @@ nav li a {
 
 /* Adiciona um separador entre itens de navegação */
 nav li:not(:last-child):not(:nth-last-child(2))::after {
-  content: '';
+  content: "";
   /* Adiciona conteúdo vazio para criar o separador */
   position: absolute;
   top: 15%;
@@ -103,7 +103,7 @@ nav li:not(:last-child):not(:nth-last-child(2))::after {
 /* Estilo para links e botões ao passar o mouse */
 nav li a:hover,
 button:hover {
-  background-color: #F7D87C;
+  background-color: #f7d87c;
   /* Cor de fundo ao passar o mouse */
   transition: background-color 0.4s ease;
   /* Transição suave da cor de fundo */
@@ -113,7 +113,7 @@ button:hover {
 /* Estilo dos botões de envio */
 button[type="submit"] {
   padding: 4px;
-  background-color: #FFCE33;
+  background-color: #ffce33;
   /* Cor de fundo do botão */
   color: #222831;
   /* Cor do texto do botão */
@@ -140,7 +140,7 @@ button:hover {
 /* Estilo dos campos de entrada de texto */
 input[type="text"] {
   padding: 2px;
-  border: 4px solid #FFCE33;
+  border: 4px solid #ffce33;
   /* Borda do campo de entrada */
   border-radius: 10px;
   /* Bordas arredondadas */
@@ -214,26 +214,25 @@ section p {
 
 /*Estilo do rodapé*/
 footer {
-  background-color: #00274C;
+  background-color: #00274c;
   padding: 8px;
   color: #fff;
 }
 
 .copyright {
   margin-top: 19px;
-  font-family: "Chakra Petch"; 
+  font-family: "Chakra Petch";
   filter: drop-shadow(5px 5px 5px #111);
   user-select: none;
 }
 
-footer p {
+footer .copyright {
   text-align: center;
-  color:#fff
 }
-  
+
 .row {
-display: flex;
-justify-content: space-between; /* Distribui os itens horizontalmente */
+  display: flex;
+  justify-content: space-between; /* Distribui os itens horizontalmente */
 }
 
 .social-icons a img {
@@ -252,5 +251,15 @@ justify-content: space-between; /* Distribui os itens horizontalmente */
   height: 85px;
   text-align: right;
   margin-right: 6px;
+  cursor: pointer;
 }
 
+.arrow-icons a img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.1s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.1s;
+}
