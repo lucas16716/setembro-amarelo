@@ -27,18 +27,16 @@
 <div align="left">
   
    <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
-   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/imagens/dv/mockup1.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
+   <img href="https://lucas16716.github.io/setembro-amarelo/" src="mockup1.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
+   </a>
+
+   <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
+   <img href="https://lucas16716.github.io/setembro-amarelo/" src="mockup2.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
    </a>
    
  </div>
  
- <div align="right">
-   
-   <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
-   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/imagens/dv/mockup2.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
-   </a>
-   
- </div>
+
 
 
  <h2>🚀 FUNCIONALIDADES</h2>
