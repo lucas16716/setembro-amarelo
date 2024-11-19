@@ -16,51 +16,47 @@
   <a href="#-estruturação-do-projeto">Guia Repositório</a>
 </p>
 
-
 <h2>🌐 PROJETO</h2>
 <h5>Acesse e confira o projeto em ação:</h5>
 
-* 🔗 <a href="https://lucas16716.github.io/setembro-amarelo/">GitHub Pages
-* 📹 <a href="https://drive.google.com/file/d/1gq1bJRB8ZH7NV1mHLzFkXgGT-SVYWEil/view?usp=sharing">Vídeo do Projeto
-* 🖼️ Imagens do Projeto:
+- 🔗 <a href="https://lucas16716.github.io/setembro-amarelo/">GitHub Pages
+- 📹 <a href="https://drive.google.com/file/d/1gq1bJRB8ZH7NV1mHLzFkXgGT-SVYWEil/view?usp=sharing">Vídeo do Projeto
+- 🖼️ Imagens do Projeto:
 
 <div align="left">
   
    <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
-   <img href="https://lucas16716.github.io/setembro-amarelo/" src="mockup1.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
+   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/images/dv/mockup1.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
    </a>
 
    <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
-   <img href="https://lucas16716.github.io/setembro-amarelo/" src="mockup2.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
+   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/images/dv/mockup2.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
    </a>
    
  </div>
- 
-
 
 
  <h2>🚀 FUNCIONALIDADES</h2>
 
-* **Menu interativo:** rolagem suave para cada seção com menu que desliza e retorna conforme a navegação;
-* **Barra de pesquisa:** Permite localizar palavras específicas no site;
-* **Seções do site:** sobre o movimento, causas e prevenções, contatos de ajuda, depoimentos e campanha oficial com material de divulgação;
-* **Botão "Voltar ao topo":** Navegação rápida para o início da página;
-* **Barra de rolagem personalizada:** Estilização em amarelo, representando o tema.
+- **Menu interativo:** rolagem suave para cada seção com menu que desliza e retorna conforme a navegação;
+- **Barra de pesquisa:** Permite localizar palavras específicas no site;
+- **Seções do site:** sobre o movimento, causas e prevenções, contatos de ajuda, depoimentos e campanha oficial com material de divulgação;
+- **Botão "Voltar ao topo":** Navegação rápida para o início da página;
+- **Barra de rolagem personalizada:** Estilização em amarelo, representando o tema.
 
 <h4>Melhorias Futuras</h4>
 
-* 📲 Design responsivo para adaptar-se a tela de diferentes dispositivos;
-* 🗃️ Inclusão de formulário para que as pessoas possam compartilhar seus depoimentos de forma anônima ou identificada;
-* 🎨 Estilizações e animações CSS para uma experiência mais intuitiva e atrativa.
-
+- 📲 Design responsivo para adaptar-se a tela de diferentes dispositivos;
+- 🗃️ Inclusão de formulário para que as pessoas possam compartilhar seus depoimentos de forma anônima ou identificada;
+- 🎨 Estilizações e animações CSS para uma experiência mais intuitiva e atrativa.
 
 <h2>💻 TECNOLOGIAS E FERRAMENTAS</h2>
 
-* **HTML5:** Estrutura semântica;
-* **CSS3:** Estilos e responsividade;
-* **JavaScript:** Interatividade e lógica;
-* **Git/GitHub:** Versionamento de código;
-* **Canva:** Logo, banner e mockup.
+- **HTML5:** Estrutura semântica;
+- **CSS3:** Estilos e responsividade;
+- **JavaScript:** Interatividade e lógica;
+- **Git/GitHub:** Versionamento de código;
+- **Canva:** Logo, banner e mockup.
 
 ---
 
@@ -72,7 +68,7 @@
 │   ├── 📂 imagens              # Imagens do projeto
 │   │   └── 📂 banner
 │   │   ├── 📂 dv
-│   │   └── 📂 icons            
+│   │   └── 📂 icons
 │   ├─  script.js                # Código JS
 │   ├─  style.css                # Código CSS
 │   └── index.html               # Página principal
@@ -84,11 +80,13 @@
 <h2>👥 CLONAR O REPOSITÓRIO</h2>
 
 1. Clone este repositório no seu computador:
+
 ```
 git clone https://github.com/lucas16716/setembro-amarelo.git
 ```
 
-2. Abra o arquivo ```index.html``` no seu navegador:
+2. Abra o arquivo `index.html` no seu navegador:
+
 ```
 cd setembro-amarelo
 open index.html
@@ -97,24 +95,19 @@ open index.html
 <h2>🤝 CONTRIBUIÇÃO</h2>
 <h4>Contribuições são sempre bem-vindas!</h4>
 
-1. Faça um *fork*;
-2. Crie uma nova *branch* (```git checkout -b minha-feature```);
-3. Faça *commit* das alterações (```git commit -m 'Adicionei algo incrível!'```);
-4. Faça *push* para a branch (```git push origin minha-feature```);
-5. Abra um *Pull Request*.
+1. Faça um _fork_;
+2. Crie uma nova _branch_ (`git checkout -b minha-feature`);
+3. Faça _commit_ das alterações (`git commit -m 'Adicionei algo incrível!'`);
+4. Faça _push_ para a branch (`git push origin minha-feature`);
+5. Abra um _Pull Request_.
 
 ---
 
 <h2>💬 AGRADECIMENTOS</h2>
 Agradeço à Alura, Google Gemini e aos instrutores que tornaram possível este aprendizado, além do apoio de todos os envolvidos na campanha Setembro Amarelo®. Vamos juntos conscientizar e salvar vidas!
 
-
 <h2>📝 LICENÇA</h2>
 <p>Este projeto está sob a licença MIT, que permite uso, modificação e distribuição para fins pessoais e comerciais. Confira os detalhes na documentação oficial.</p>
 
-
-
 <h2>🧑🏻‍💻 AUTOR </h2>
 <p>Desenvolvido por <a href="https://www.linkedin.com/in/lucas-coutoti/">Lucas Couto<a/> com amor, dedicação e a busca por aprendizado constante.</p>
-
-
