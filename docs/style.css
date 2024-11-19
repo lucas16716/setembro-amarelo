@@ -1,6 +1,3 @@
-/* Importa a fonte Chakra Petch do Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-
 html {
   scroll-behavior: smooth;
 }
@@ -214,20 +211,22 @@ section p {
 
 /*Estilo do rodapé*/
 footer {
-  background-color: #00274c;
-  padding: 8px;
-  color: #fff;
+  background-color: #00274ce3;
+  padding-bottom: 5px;
+  font-size: 15px;
 }
 
 .copyright {
   margin-top: 19px;
-  font-family: "Chakra Petch";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   filter: drop-shadow(5px 5px 5px #111);
   user-select: none;
+  text-align: center;
+  color: #fff;
 }
 
-footer .copyright {
-  text-align: center;
+.linkedin-link {
+  color: #fff;
 }
 
 .row {
@@ -236,21 +235,21 @@ footer .copyright {
 }
 
 .social-icons a img {
-  filter: drop-shadow(8px 8px 8px #111);
-  margin-top: -2px;
-  width: 85px;
-  height: 85px;
+  filter: drop-shadow(6px 6px 6px #111);
+  margin-top: 15px;
+  margin-left: 23px;
+  width: 56px;
+  height: 54px;
   text-align: left;
-  margin-left: 4px;
 }
 
 .arrow-icons a img {
-  filter: drop-shadow(8px 8px 8px #111);
-  margin-top: 2px;
-  width: 80px;
-  height: 85px;
+  filter: drop-shadow(6px 6px 6px #111);
+  margin-top: 4px;
+  width: 66px;
+  height: 70px;
   text-align: right;
-  margin-right: 6px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -262,4 +261,20 @@ footer .copyright {
 .social-icons a img:hover {
   transform: scale(1.1);
   transition-duration: 0.1s;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffce33;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fcce38bd;
 }
