@@ -22,14 +22,18 @@
 
 * 🔗 <a href="https://lucas16716.github.io/setembro-amarelo/">GitHub Pages
 * 📹 <a href="https://drive.google.com/file/d/1gq1bJRB8ZH7NV1mHLzFkXgGT-SVYWEil/view?usp=sharing">Vídeo do Projeto
-* 🖼️ Imagem do Projeto:
+* 🖼️ Imagens do Projeto:
 
-<div align="center">
+<div align="left">
   
    <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
    <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/imagens/dv/mockup1.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
    </a>
-   &nbsp;
+   
+ </div>
+ 
+ <div align="right">
+   
    <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
    <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/imagens/dv/mockup2.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
    </a>
@@ -62,7 +66,7 @@
 
 ---
 
-<h2>🏗️ ESTRUTURAÇÃO DO PROJETO</h2>
+<h2>🏗 ESTRUTURAÇÃO DO PROJETO</h2>
 
 ```bash
 📁 setembro-amarelo
