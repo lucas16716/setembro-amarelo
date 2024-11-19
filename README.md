@@ -1,8 +1,39 @@
-# site-setembro-amarelo
-💻 Meu primeiro projeto na programação...
+<h1 align="center">SETEMBRO AMARELO 🎗️</h1>
 
-Decidi criar algo que considero de extrema importância: um site voltado para a Campanha de Prevenção ao Suicídio - Setembro Amarelo®. Movido pelo desejo de ajudar aqueles que sofrem em silêncio, utilizei o material oficial da campanha para desenvolver uma plataforma de conscientização, reforçando a importância desse movimento e como todos nós podemos contribuir para salvar vidas.
+<div>
+  
+[![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
+[![Status](https://img.shields.io/badge/Status-Desenvolvendo_Melhorias-blue)]()
 
-Projeto foi realizado durante a Imersão Dev com Google Gemini, promovida pela Alura + Google, onde aprofundei meus conhecimentos em HTML, CSS, JavaScript para criação de um site dinâmico e informativo, explorando técnicas de desenvolvimento voltadas para estilização e uma melhor estruturação de código, usando o Google Gemini para impulsionar o projeto.
+</div>
+ 
+> Movido pelo desejo de ajudar aqueles que sofrem em silêncio, durante a **Imersão Front-End da Alura** iniciei este projeto com o intuito de **promover o bem-estar mental e a prevenção ao suicídio**. Este site é um espaço informativo e interativo desenvolvido com **HTML, CSS e JavaScript** e inspirado na estética do website oficial da campanha.
 
-⏳ No futuro, além de incluir um formulário para que as pessoas possam compartilhar seus depoimentos de forma anônima ou identificada, também planejo aprimorar a responsividade do site, garantindo que ele funcione perfeitamente em todos os tipos de dispositivos para que qualquer pessoa tenha uma experiência de navegação fluida e intuitiva, promovendo ainda mais a acessibilidade e o alcance da campanha.
+<p align="center">
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-e-ferramentas">Tecnologias e Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#estruturação-do-projeto">Guia Repositório</a>
+</p>
+
+
+<h2>PROJETO</h2>
+<h5>Acesse e confira o projeto em ação:</h5>
+
+* 🌐 <a href="https://lucas16716.github.io/setembro-amarelo/">GitHub Pages
+* 📹 <a href="https://drive.google.com/file/d/1gq1bJRB8ZH7NV1mHLzFkXgGT-SVYWEil/view?usp=sharing">Vídeo do Projeto
+* 🖼️ Imagem do Projeto:
+
+<div align="center">
+  
+   <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
+   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/src/imagens/dv/mockup1.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
+   </a>
+&nbsp;&nbsp;
+ <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
+   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/src/imagens/dv/mockup2.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
+   </a>
+   
+ </div>
+
+
