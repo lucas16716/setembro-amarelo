@@ -13,7 +13,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-e-ferramentas">Tecnologias e Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-estruturação-do-projeto">Guia Repositório</a>
+  <a href="-estruturação-do-projeto">Guia Repositório</a>
 </p>
 
 
@@ -95,11 +95,11 @@ open index.html
 <h2>🤝 CONTRIBUIÇÃO</h2>
 <h4>Contribuições são sempre bem-vindas!</h4>
 
-1. Faça um fork;
-2. Crie uma branch (```git checkout -b feature/minha-feature```);
-3. Faça commit das alterações (```git commit -m 'Adicionei algo incrível!'```);
-4. Faça push para a branch (```git push origin minha-feature```);
-5. Abra um Pull Request.
+1. Faça um *fork*;
+2. Crie uma nova *branch* (```git checkout -b minha-feature```);
+3. Faça *commit* das alterações (```git commit -m 'Adicionei algo incrível!'```);
+4. Faça *push* para a branch (```git push origin minha-feature```);
+5. Abra um *Pull Request*.
 
 ---
 
