@@ -7,7 +7,7 @@
 
 </div>
  
-> O site foi desenvolvido durante a **Imersão Front-End da Alura**, utilizando **HTML, CSS e JavaScript**. O projeto foi inspirado no **site oficial da campanha Setembro Amarelo®** com um design que busca ser atrativo e acessível. Esta plataforma reúne **informações importantes sobre o movimento, contatos de apoio para quem precisa e material para divulgação**, assim todos podem contribuir para promover a conscientização e importância desse movimento.
+> O site foi desenvolvido com **HTML, CSS e JavaScript** e inspirado no **site oficial da campanha Setembro Amarelo®** com um design que busca ser atrativo e acessível. Esta plataforma reúne **informações importantes sobre o movimento, contatos de apoio para quem precisa e material para divulgação**, contribuindo para promover a conscientização e importância desse movimento.
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -34,7 +34,6 @@
    </a>
    
  </div>
-
 
  <h2>🚀 FUNCIONALIDADES</h2>
 
