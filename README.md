@@ -9,6 +9,8 @@
  
 > O projeto foi desenvolvido com **HTML, CSS e JavaScript** e inspirado no **site oficial da campanha Setembro Amarelo®** com um design que busca ser atrativo e acessível. Esta plataforma reúne **informações importantes sobre o movimento, contatos de apoio para quem precisa e material para divulgação**, contribuindo para promover a conscientização e importância desse movimento.
 
+Projeto dedicado à **Campanha Setembro Amarelo**, com o objetivo de **reunir informações essenciais e conectar pessoas a canais de apoio**, reforçando a **importância do cuidado com a saúde mental**. Pretendo incluir um formulário para depoimentos — anônimos ou identificados — e seguir aprimorando a responsividade
+
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
