@@ -3,12 +3,11 @@
 <div>
   
 [![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
-[![Status](https://img.shields.io/badge/Status-Desenvolvendo_melhorias-blue)]()
+[![Status](https://img.shields.io/badge/Status-Desenvolvendo_melhorias-blue)]()&nbsp;&nbsp;
+[![Deploy Status](https://img.shields.io/badge/Deploy-GitHubPages-black)](https://lucas16716.github.io/setembro-amarelo/)
 
 </div>
  
-> Projeto dedicado à **Campanha Setembro Amarelo**, com o objetivo de **reunir informações essenciais e conectar pessoas a canais de apoio**, reforçando a **importância do cuidado com a saúde mental**. Pretendo incluir um formulário para depoimentos — anônimos ou identificados — e seguir aprimorando a responsividade
-
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,23 +16,11 @@
 </p>
 
 <h2>🌐 PROJETO</h2>
-<h5>Acesse e confira o projeto em ação:</h5>
 
-- 🔗 <a href="https://lucas16716.github.io/setembro-amarelo/">GitHub Pages
-- 📹 <a href="https://drive.google.com/file/d/1gq1bJRB8ZH7NV1mHLzFkXgGT-SVYWEil/view?usp=sharing">Vídeo do Projeto
-- 🖼️ Imagens do Projeto:
+Projeto dedicado à **Campanha Setembro Amarelo**, utilizando o material oficial da Campanha 2024, com o objetivo de **reunir informações essenciais e conectar pessoas a canais de apoio**, reforçando a **importância do cuidado com a saúde mental**.
 
-<div align="left">
-  
-   <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
-   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/images/dv/mockup1.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
-   </a>
-
-   <a target="_blank" href="https://lucas16716.github.io/setembro-amarelo/">
-   <img href="https://lucas16716.github.io/setembro-amarelo/" src="./docs/images/dv/mockup2.jpg" alt="imagem do site SETEMBRO AMARELO 🎗️">
-   </a>
-   
- </div>
+- 🔗 <a href="https://lucas16716.github.io/setembro-amarelo/">Acesse o site (GitHub Pages)
+- 📹 <a href="https://www.instagram.com/p/DObHM7FkcN7/?img_index=1">Funcionamento do site (Instagram)
 
  <h2>🚀 FUNCIONALIDADES</h2>
 
