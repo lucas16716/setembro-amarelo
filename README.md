@@ -38,11 +38,11 @@ Projeto dedicado à **Campanha Setembro Amarelo**, utilizando o material oficial
 
 <h2>💻 TECNOLOGIAS E FERRAMENTAS</h2>
 
-- **HTML5:** Estrutura semântica;
-- **CSS3:** Estilos e responsividade;
-- **JavaScript:** Interatividade e lógica;
-- **Git/GitHub:** Versionamento de código;
-- **Canva:** Logo, banner e mockup.
+- **HTML5 →** Estrutura semântica;
+- **CSS3 →** Estilos e responsividade;
+- **JavaScript →** Interatividade e lógica;
+- **Git/GitHub →** Versionamento de código;
+- **Canva →** Logo, banner e mockup.
 
 ---
 
