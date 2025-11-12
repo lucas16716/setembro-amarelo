@@ -20,7 +20,7 @@
 Projeto dedicado à **Campanha Setembro Amarelo**, utilizando o material oficial da Campanha 2024, com o objetivo de **reunir informações essenciais e conectar pessoas a canais de apoio**, reforçando a **importância do cuidado com a saúde mental**.
 
 - 🔗 <a href="https://lucas16716.github.io/setembro-amarelo/">Acesse o site (GitHub Pages)
-- 📹 <a href="https://www.instagram.com/p/DObHM7FkcN7/?img_index=1">Funcionamento do site (Instagram)
+- ℹ️ <a href="https://www.instagram.com/p/DObHM7FkcN7/?img_index=1">Sobre o site (Instagram)
 
  <h2>🚀 FUNCIONALIDADES</h2>
 

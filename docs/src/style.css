@@ -2,214 +2,138 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Reseta margens e preenchimentos e define o box-sizing para border-box em todos os elementos */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilo do corpo da página */
 body {
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* Fonte importada */
-  background-color: lightskyblue;
-  /* Cor de fundo */
+  background-color: #87cefa;
   line-height: 1.6;
-  /* Altura da linha para melhor leitura */
 }
 
-/* Estilo do cabeçalho fixo */
 header {
-  background-color: lightskyblue;
-  /* Cor de fundo do cabeçalho */
+  background-color: #87cefa;
   position: fixed;
-  /* Fixa o cabeçalho no topo da página */
   width: 100%;
-  /* Largura total da tela */
   top: 0;
-  /* Posiciona no topo */
   left: 0;
-  /* Alinha à esquerda */
   z-index: 1000;
-  /* Garante que o cabeçalho fique acima de outros elementos */
   transition: top 0.3s;
-  /* Transição suave para o esconder/mostrar */
 }
 
-/* Estilo da banner */
 .banner {
   width: 100%;
   margin-left: 15px;
   height: auto;
   background-size: cover;
-  /* Ajusta a imagem de fundo para cobrir o elemento */
   background-position: center;
-  /* Centraliza a imagem de fundo */
   background-repeat: no-repeat;
-  /* Impede a repetição da imagem de fundo */
 }
 
-/* Estilo da navegação */
 nav ul {
   list-style: none;
-  /* Remove marcadores da lista */
   display: flex;
-  /* Exibe os itens de forma horizontal */
   justify-content: center;
-  /* Centraliza os itens horizontalmente */
-  background-color: lightskyblue;
-  /* Cor de fundo da navegação */
+  background-color: #87cefa;
   padding: 5px;
-  /* Preenchimento ao redor dos itens */
 }
 
-/* Estilo dos itens de navegação */
 nav li {
   position: relative;
 }
 
-/* Estilo dos links da navegação */
 nav li a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #323232;
-  /* Cor do texto */
   padding: 11px 20px;
-  /* Espaçamento interno */
   text-decoration: none;
-  /* Remove sublinhado */
   font-size: 17px;
-  /* Tamanho da fonte */
   margin-left: -5px;
 }
 
-/* Adiciona um separador entre itens de navegação */
 nav li:not(:last-child):not(:nth-last-child(2))::after {
   content: "";
-  /* Adiciona conteúdo vazio para criar o separador */
   position: absolute;
   top: 15%;
   right: -1px;
   height: 20px;
   width: 1px;
   background-color: #222831;
-  /* Cor do separador */
 }
 
-/* Estilo para links e botões ao passar o mouse */
 nav li a:hover,
 button:hover {
   background-color: #f7d87c;
-  /* Cor de fundo ao passar o mouse */
   transition: background-color 0.4s ease;
-  /* Transição suave da cor de fundo */
   margin-left: 1px;
 }
 
-/* Estilo dos botões de envio */
 button[type="submit"] {
   padding: 4px;
   background-color: #ffce33;
-  /* Cor de fundo do botão */
   color: #222831;
-  /* Cor do texto do botão */
   border: none;
-  /* Remove a borda padrão */
   border-radius: 10px;
-  /* Bordas arredondadas */
   cursor: pointer;
-  /* Mostra o cursor de ponteiro ao passar o mouse */
   font-size: 15px;
-  /* Tamanho da fonte */
   transition: background-color 0.4s ease, transform 0.4s ease;
-  /* Transição suave para cor e escala */
 }
 
-/* Efeito de hover para botões */
 button:hover {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  /* Sombra ao passar o mouse */
   transform: scale(1.05);
-  /* Leve aumento ao passar o mouse */
 }
 
-/* Estilo dos campos de entrada de texto */
 input[type="text"] {
   padding: 2px;
   border: 4px solid #ffce33;
-  /* Borda do campo de entrada */
   border-radius: 10px;
-  /* Bordas arredondadas */
   width: 200px;
-  /* Largura do campo de entrada */
   font-size: 15px;
-  /* Tamanho da fonte */
   transition: border-color 0.4s ease;
-  /* Transição suave para a cor da borda */
 }
 
-/* Efeito de hover para campos de entrada */
 input[type="text"]:hover {
   border-color: #fee778;
-  /* Cor da borda ao passar o mouse */
 }
 
-/* Estilo para palavras destacadas */
 mark {
   background-color: #ffeb3b;
-  /* Cor de fundo do destaque */
   color: #000;
-  /* Cor do texto do destaque */
   padding: 0.2em;
-  /* Preenchimento ao redor do texto */
   border-radius: 0.3em;
-  /* Bordas arredondadas */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  /* Sombra ao redor do destaque */
 }
 
-/* Estilo das seções */
 section {
   padding: 20px 40px;
-  /* Espaçamento interno */
   border-radius: 0.9em;
   background-color: #f6faff;
-  /* Cor de fundo */
   margin: 15px;
-  /* Margem ao redor da seção */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* Sombra ao redor da seção */
 }
 
-/* Estilo dos cabeçalhos dentro das seções */
 section h1,
 section h2 {
   color: #131313;
-  /* Cor do texto */
   filter: drop-shadow(2px -2px 2px lightskyblue);
-  /*Sombra no texto*/
 }
 
-/* Estilo dos parágrafos dentro das seções */
 section p {
   margin-top: 15px;
-  /* Margem acima do parágrafo */
   font-size: 1rem;
-  /* Tamanho da fonte */
   color: #555;
-  /* Cor do texto */
   margin-bottom: 10px;
-  /*Margem após parágrafo*/
 }
 
-/* Classe para esconder elementos */
 .hidden {
   top: -100px;
-  /* Move o elemento para fora da tela */
 }
 
-/*Estilo do rodapé*/
 footer {
   background-color: #00274ce3;
   padding-bottom: 5px;
@@ -231,7 +155,7 @@ footer {
 
 .row {
   display: flex;
-  justify-content: space-between; /* Distribui os itens horizontalmente */
+  justify-content: space-between;
 }
 
 .social-icons a img {
@@ -263,18 +187,15 @@ footer {
   transition-duration: 0.1s;
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #ffce33;
   border-radius: 8px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #fcce38bd;
 }
