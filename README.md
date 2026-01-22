@@ -1,6 +1,7 @@
 <h1 align="center">SETEMBRO AMARELO 🎗️</h1>
 
 <div>
+
 [![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
 [![Status](https://img.shields.io/badge/Status-Desenvolvendo_versão_2.0-blue)]()
 
