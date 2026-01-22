@@ -1,10 +1,8 @@
 <h1 align="center">SETEMBRO AMARELO 🎗️</h1>
 
 <div>
-  
 [![License](https://img.shields.io/badge/Licença-MIT-yellow)](./LICENSE)&nbsp;&nbsp;
-[![Status](https://img.shields.io/badge/Status-Desenvolvendo_melhorias-blue)]()&nbsp;&nbsp;
-[![Deploy Status](https://img.shields.io/badge/Deploy-GitHubPages-black)](https://lucas16716.github.io/setembro-amarelo/)
+[![Status](https://img.shields.io/badge/Status-Desenvolvendo_versão_2.0-blue)]()
 
 </div>
  
@@ -34,7 +32,7 @@ Projeto dedicado à **Campanha Setembro Amarelo**, utilizando o material oficial
 
 - 📲 Design responsivo para adaptar-se a tela de diferentes dispositivos;
 - 🗃️ Inclusão de formulário para que as pessoas possam compartilhar seus depoimentos de forma anônima ou identificada;
-- 🎨 Estilizações e animações CSS para uma experiência mais intuitiva e atrativa.
+- 🆙 Versão 2.0 será desenvolvida futuramente.
 
 <h2>💻 TECNOLOGIAS E FERRAMENTAS</h2>
 
