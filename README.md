@@ -8,9 +8,9 @@
 
 *Primeiro projeto autoral — início da minha jornada na programação*
 
+[![Status](https://img.shields.io/badge/status-desenvolvendo%20melhorias-e8e4de?style=flat-square&labelColor=3437e6&color=1c1b2e)]()&nbsp;
 [![Finalidade](https://img.shields.io/badge/finalidade-estudo-e8e4de?style=flat-square&labelColor=orange&color=1c1b2e)]()&nbsp;
-[![Licença](https://img.shields.io/badge/licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)&nbsp;
-[![Status](https://img.shields.io/badge/status-desenvolvendo%20melhorias-e8e4de?style=flat-square&labelColor=3437e6&color=1c1b2e)]()
+[![Licença](https://img.shields.io/badge/licença-MIT-e8e4de?style=flat-square&labelColor=ef4444&color=1c1b2e)](./LICENSE)
 
 </div>
 
